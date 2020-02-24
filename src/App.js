@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, BrowserRouter} from "react-router-dom";
+import {Route, BrowserRouter, HashRouter} from "react-router-dom";
 import { positions, Provider } from "react-alert";
 import AlertTemplate from "react-alert-template-basic";
 import './App.css';
@@ -13,13 +13,13 @@ import About from './routes/About';
 function AppShow() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <App_Navigation/>
         <Route path="/" exact={true} component={Home}/>
         <Route path="/search" component={Search}/>
         <Route path="/request" component={Request}/>
         <Route path="/about" component={About}/>
-      </BrowserRouter>
+      </HashRouter>
       <App_Bottom/>
     </div>
   );
