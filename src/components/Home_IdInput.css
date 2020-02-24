@@ -2,3 +2,35 @@
     color : #ffb13f;
     text-align: center;
 }
+.buttonImg{
+    display: block;
+    margin: 0;
+    height: 50px;
+    width: auto;
+}
+.searchInput{
+    height: 37px;
+    width: 440px;
+    float: left;
+    margin: 3px;
+    font-size: 20px;
+    color: gray;
+}
+.inputBar{
+    display: block;
+    width: 600px;
+    height: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 20px;
+    color: gray;
+    background-color: gray;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.searchButton{
+	border: none;
+	margin: 0px;
+	float: right;
+	padding: 0px;
+}

@@ -2,31 +2,28 @@
 
 .topBar {
 	background-color: #e9db89;
-	font-size: 17px;
+	height: 70px;
 }
 .centerImg {
-	margin-left: 440px;
+	margin-left: 20px;
 	width: 150px; 
-	height:auto;
+	height: 70px;
 }
-.topnav {
-	overflow: hidden;
-	background-color: #e9db89;
-}
-.topnav a {
-	float: left;
+.topBar a {
+	float: right;
 	color: #666;
 	text-align: center;
+	margin-top: 28px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width: 150px;
+	width: 100px;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 15px;
 }
-.topnav a:hover {
+.topBar a:hover {
 	background-color: #ebe3be;
 }
-.topnav a.active {
+.topBar a.active {
 	background-color: #ddd;
 }
 
@@ -43,16 +40,6 @@
 }
 
 @media screen and (max-width: 650px) {
-	.topnav a {
-		float: left;
-		color: #666;
-		text-align: center;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		width: 100%;
-		text-decoration: none;
-		font-size: 20px;
-	}
 	.centerImg {
 		margin-left: 150px;
 	}
