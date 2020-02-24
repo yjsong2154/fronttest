@@ -1,11 +1,11 @@
 import React , { Fragment } from "react";
 import { useAlert } from "react-alert";
 import './Home_LectureInput.css';
-
+ 
 function Home_LectureInput() {
   const alert = useAlert();
   return (
-    <form className="inputField">
+    <div className="inputField">
       <h2 className="inputTitle">입시설명회 개최</h2>
       <input className="textInput" type="text" name="parentsName" placeholder="기업 (단체명)"/>
       <input className="textInput" type="text" name="childName" placeholder="담당자 성함"/>
@@ -19,7 +19,7 @@ function Home_LectureInput() {
           alert.success("검토 후 1영업일 이내에 회신드리겠습니다");
           }}className="inputButton">접수하기
       </button>
-	  </form>
+	  </div>
   );
 }
 
