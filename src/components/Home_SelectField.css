@@ -1,12 +1,8 @@
 .field{
-    padding-top: 30px;
     text-align: center;
     background-color: #202020;
     color:white;
     padding-bottom: 50px;
-}
-.selectFieldTitle{
-    margin: 0px;
 }
 h1{
     font-weight: bold;

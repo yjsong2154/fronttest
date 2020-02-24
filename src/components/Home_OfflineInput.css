@@ -41,10 +41,9 @@
 }
 .checkbox{
     float: left;
-}
-.checkboxInfo{
     text-align: left;
     font-size: 13px;
+    color: gray;
 }
 .inputButton{
     width: 100px;
@@ -55,4 +54,18 @@
     background-color: #d03030;
     color:white;
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+    .inputField{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .inputTitle , .textInput , .massageInput{
+        width: 80%;
+    }
+    .inputButton{
+        margin-left: 5vw;
+    }
 }

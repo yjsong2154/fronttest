@@ -1,7 +1,6 @@
 .infoImg{
     position: relative;
-    margin: 0px;
-    height: 500px;
+    float: left;
 }
 .pptImg {
 	width : 100%;
@@ -10,14 +9,14 @@
 }
 .infoBox{
     position: absolute;
-    left: 130px;
-    top: 120px;
+    left: 9%;
+    top: 25%;
     border-style: solid;
-    border-width: 10px;
+    border-width: 0.5vw;
     border-color: white;
     color: white;
     padding: 10px;
-    width: 700px;
+    width: 80%;
     text-align: center;
 }
 .infoTitle{
@@ -27,4 +26,55 @@
 .infoBody{
     font-size: 30px;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 1000px) {
+	.infoBox{
+        top: 10vw;
+        height: 25vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+	.infoTitle{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .infoBody{
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+	.infoTitle{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .infoBody{
+        font-size: 25px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+	.infoTitle{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .infoBody{
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	.infoTitle{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .infoBody{
+        font-size: 15px;
+        font-weight: 400;
+    }
 }

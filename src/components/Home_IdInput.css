@@ -5,14 +5,17 @@
 .buttonImg{
     display: block;
     margin: 0;
-    height: 50px;
+    height: 47px;
     width: auto;
 }
 .searchInput{
+    padding-left: 5px;
+    margin: 0;
     height: 37px;
     width: 440px;
     float: left;
-    margin: 3px;
+    border: solid;
+    border-width: 4px;
     font-size: 20px;
     color: gray;
 }
@@ -24,13 +27,22 @@
     margin-right:auto;
     font-size: 20px;
     color: gray;
-    background-color: gray;
     margin-bottom: 40px;
     margin-top: 30px;
 }
 .searchButton{
 	border: none;
 	margin: 0px;
-	float: right;
+	float: left;
 	padding: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+	.inputBar{
+        width: 455px;
+    }
+    .searchInput{
+        width: 300px;
+        font-size: 15px;
+    }
 }

@@ -1,11 +1,50 @@
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url("./font/NotoSansCJKkr-Thin.otf") format('opentype');
+}@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	src: url("./font/NotoSansCJKkr-Light.otf") format('opentype');
+}@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url("./font/NotoSansCJKkr-Regular.otf") format('opentype');
+}@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 500;
+	src: url("./font/NotoSansCJKkr-Medium.otf") format('opentype');
+}@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	src: url("./font/NotoSansCJKkr-Bold.otf") format('opentype');
+}@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 900;
+	src: url("./font/NotoSansCJKkr-Thin.otf") format('opentype');
+}
+
 body {
+	font-family: 'Noto Sans KR',sans-serif;
 	width: 1000px;
 	margin-top: 0;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #f2f2f2;
-	font-family: 'Noto Sans CJK KR', Arial, Helvetica, sans-serif;
 }
+
 button:hover {
 	opacity: 0.7;
+}
+
+@media only screen and (max-width: 1000px) {
+	body{
+		width: 100%;
+	}
 }
